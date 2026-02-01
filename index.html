@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Music Player - A mini music player."
+    />
+
+    <meta name="author" content="Ritu kumari" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Music Player | devChallenges.io</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <div class="cover">
+          <img src="" alt="">
+        </div>
+        <h2 class="title"></h2>
+        <h3 class="author"></h3>
+
+        <div class="progress">
+          <div class="time">
+            <p class="curr"></p>
+            <p class="total-duration"></p>
+          </div>
+        
+          <div class="progress-bar">
+            <div class="progress-filled"></div>
+          </div>
+
+          <audio id="audio"></audio>
+        </div>
+
+        <div class="control">
+          <div class="buttons previous">
+            <img src="resources/Stop_and_play_fill-1.svg" alt="">
+          </div>
+          
+          <div class="play-button buttons">
+            <img src="resources/Play_fill.svg" alt="">
+          </div>
+          <div class="buttons next">
+            <img src="resources/Stop_and_play_fill.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
