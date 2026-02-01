@@ -9,7 +9,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://music-player-jmia.vercel.app/">
       Demo
     </a>
     <span> | </span>
